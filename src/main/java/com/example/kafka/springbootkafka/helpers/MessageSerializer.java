@@ -1,6 +1,5 @@
 package com.example.kafka.springbootkafka.helpers;
 
-
 import org.apache.kafka.common.serialization.Serializer;
 
 import com.example.kafka.springbootkafka.model.Message;

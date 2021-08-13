@@ -13,9 +13,9 @@ import com.example.kafka.springbootkafka.model.Message;
 @EnableKafka
 @KafkaListener(
     id = KafkaConstants.CLIENT_ID,
-    topics = KafkaConstants.TOPIC_MESSAGE
+    topics = KafkaConstants.TOPIC_NAME
 )
-public class MessageConsumerMessage {
+public class MessageConsumer {
 
     @KafkaHandler(isDefault = true)
     public void listen(ConsumerRecord<Long, Message> record) {
